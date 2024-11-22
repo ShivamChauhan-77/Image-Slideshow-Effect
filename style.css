@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding:0;
+    background:#364b63;
+}
+.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    animation:slideshow 20s infinite;
+}
+.slider{
+    background:url("nature1.jpeg");
+    background-size:cover;
+    height:450px;
+    width:800px;
+    box-shadow:0px 5px 8px rgba(0,0,0,0.3);
+}
+@keyframes slideshow{
+    20%{
+        background:url("nature2.jpeg");
+        background-size: cover;
+    }
+    40%{
+        background:url("nature3.jpeg");
+        background-size: cover;
+    }
+    60%{
+        background:url("nature4.jpeg");
+        background-size: cover;
+    }
+    80%{
+        background:url("nature5.jpeg");
+        background-size: cover;
+    }
+    100%{
+        background:url("nature6.jpeg");
+        background-size: cover;
+    }
+}
